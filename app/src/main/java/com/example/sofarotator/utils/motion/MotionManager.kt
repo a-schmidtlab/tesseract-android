@@ -1,4 +1,4 @@
-package com.example.sofarotator.ui.utils
+package com.example.sofarotator.utils.motion
 
 import android.content.Context
 import android.hardware.Sensor

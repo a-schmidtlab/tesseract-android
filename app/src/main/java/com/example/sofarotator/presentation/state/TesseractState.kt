@@ -1,17 +1,18 @@
-package com.example.sofarotator.data
+package com.example.sofarotator.presentation.state
 
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-
-/**
- * Visualization modes for the tesseract
- */
-enum class VisualizationMode {
-    WIREFRAME,
-    SOLID
-}
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableDoubleStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.geometry.Size
+import com.example.sofarotator.domain.math.ProjectionMode
+import com.example.sofarotator.domain.math.Rotation4D
+import com.example.sofarotator.domain.math.TesseractMath
+import com.example.sofarotator.domain.models.VisualizationMode
+import kotlin.math.PI
 
 /**
  * State data class that holds all tesseract visualization parameters

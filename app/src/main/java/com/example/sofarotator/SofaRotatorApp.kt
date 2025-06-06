@@ -4,8 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.sofarotator.ui.screens.TesseractScreen
-import com.example.sofarotator.ui.screens.InfoScreen
+import com.example.sofarotator.presentation.screens.TesseractScreen
+import com.example.sofarotator.presentation.screens.InfoScreen
 
 @Composable
 fun SofaRotatorApp() {

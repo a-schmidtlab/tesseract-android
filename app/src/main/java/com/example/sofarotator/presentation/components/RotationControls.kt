@@ -1,4 +1,4 @@
-package com.example.sofarotator.ui.components
+package com.example.sofarotator.presentation.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -13,9 +13,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.sofarotator.data.TesseractViewState
-import com.example.sofarotator.data.VisualizationMode
-import com.example.sofarotator.data.ProjectionMode
+import com.example.sofarotator.presentation.state.TesseractViewState
+import com.example.sofarotator.domain.models.VisualizationMode
+import com.example.sofarotator.domain.math.ProjectionMode
 
 /**
  * Advanced rotation controls panel

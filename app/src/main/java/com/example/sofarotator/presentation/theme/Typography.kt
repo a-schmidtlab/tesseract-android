@@ -1,4 +1,4 @@
-package com.example.sofarotator.ui.theme
+package com.example.sofarotator.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

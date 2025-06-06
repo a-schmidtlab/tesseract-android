@@ -1,4 +1,4 @@
-package com.example.sofarotator.ui.screens
+package com.example.sofarotator.presentation.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -14,11 +14,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.sofarotator.data.TesseractViewModel
-import com.example.sofarotator.ui.components.TesseractCanvas
-import com.example.sofarotator.ui.utils.rememberFrameCallback
-import com.example.sofarotator.ui.utils.rememberMotionManager
-import com.example.sofarotator.ui.utils.MotionData
+import com.example.sofarotator.presentation.state.TesseractViewModel
+import com.example.sofarotator.presentation.components.TesseractCanvas
+import com.example.sofarotator.utils.motion.rememberFrameCallback
+import com.example.sofarotator.utils.motion.rememberMotionManager
+import com.example.sofarotator.utils.motion.MotionData
 
 /**
  * Main tesseract visualization screen
